@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v nvm)",
+      "Read(//home/hui/**)",
+      "Bash(npx --version)",
+      "WebSearch",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ]
+  }
+}
