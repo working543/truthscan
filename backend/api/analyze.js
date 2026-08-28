@@ -10,7 +10,7 @@ const fetch = require('node-fetch');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const APP_SHARED_SECRET = process.env.APP_SHARED_SECRET;
-const GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
+const GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent';
 
 // Validation & CORS
 function validateRequest(req) {
@@ -30,7 +30,7 @@ function validateRequest(req) {
   return { valid: true };
 }
 
-// Call Gemini 2.5 Flash with vision capabilities
+// Call Gemini 3.6 Flash with vision capabilities
 async function callGemini(imageBase64, mimeType) {
   const prompt = `Analyze this image/content and provide a JSON response with:
 {
