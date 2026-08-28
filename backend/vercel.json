@@ -11,9 +11,5 @@
       "src": "/api/analyze",
       "dest": "api/analyze.js"
     }
-  ],
-  "env": {
-    "GEMINI_API_KEY": "@gemini_api_key",
-    "APP_SHARED_SECRET": "@app_shared_secret"
-  }
+  ]
 }
