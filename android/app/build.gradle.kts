@@ -18,7 +18,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField("String", "BACKEND_URL", "\"https://huiiitest2.vercel.app\"")
-        buildConfigField("String", "APP_SHARED_SECRET", "\"truthscan-secret-2024\"")
+        buildConfigField("String", "APP_SHARED_SECRET", "\"5154\"")
     }
 
     buildTypes {
